@@ -16,122 +16,138 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Valeriia Kharina" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkY-uK-PrP">
-                                <rect key="frame" x="92" y="323" width="209" height="37"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="37" id="cUp-y1-1rF"/>
-                                </constraints>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Innopolis University" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9RJ-NB-GBx">
-                                <rect key="frame" x="42" y="400" width="265" height="71"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="City" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAF-S2-SFw">
-                                <rect key="frame" x="42" y="485" width="240" height="28"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6i-q5-mug">
-                                <rect key="frame" x="315" y="515" width="50" height="35"/>
-                                <color key="tintColor" systemColor="opaqueSeparatorColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="pencil.tip.crop.circle.badge.plus" catalog="system"/>
-                                <connections>
-                                    <action selector="cityButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NEy-Ie-6Zc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZx-9i-gWN">
-                                <rect key="frame" x="315" y="400" width="50" height="35"/>
-                                <color key="tintColor" systemColor="opaqueSeparatorColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="pencil.tip.crop.circle.badge.plus" catalog="system"/>
-                                <connections>
-                                    <action selector="universityButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4AJ-Xi-F24"/>
-                                </connections>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="University" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AcR-xF-1i3">
-                                <rect key="frame" x="42" y="376" width="81" height="28"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="81" id="rsg-bm-Ip8"/>
-                                    <constraint firstAttribute="height" constant="28" id="vNc-DI-WhD"/>
-                                </constraints>
-                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WDr-ZR-TN8">
-                                <rect key="frame" x="98" y="88" width="197" height="197"/>
+                                <rect key="frame" x="98.333333333333329" y="87.999999999999986" width="196.33333333333337" height="196.66666666666663"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="VK" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QB-ak-Sf8">
-                                        <rect key="frame" x="26" y="52" width="145" height="93"/>
+                                        <rect key="frame" x="44.333333333333321" y="45.000000000000007" width="107.66666666666669" height="106.66666666666669"/>
                                         <color key="textColor" systemColor="labelColor"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="70"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="66"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <constraints>
-                                    <constraint firstItem="0QB-ak-Sf8" firstAttribute="centerY" secondItem="WDr-ZR-TN8" secondAttribute="centerY" id="599-pp-dhS"/>
-                                    <constraint firstAttribute="height" constant="197" id="FeH-gS-NLg"/>
-                                    <constraint firstItem="0QB-ak-Sf8" firstAttribute="leading" secondItem="WDr-ZR-TN8" secondAttribute="leading" constant="26" id="T6k-Ys-mFI"/>
-                                    <constraint firstItem="0QB-ak-Sf8" firstAttribute="centerX" secondItem="WDr-ZR-TN8" secondAttribute="centerX" id="cyQ-we-4SC"/>
-                                    <constraint firstAttribute="width" constant="197" id="gwS-aC-edm"/>
-                                    <constraint firstItem="0QB-ak-Sf8" firstAttribute="top" secondItem="WDr-ZR-TN8" secondAttribute="top" constant="52" id="qAs-ik-9jG"/>
+                                    <constraint firstItem="0QB-ak-Sf8" firstAttribute="centerX" secondItem="WDr-ZR-TN8" secondAttribute="centerX" id="6VB-7w-QS8"/>
+                                    <constraint firstItem="0QB-ak-Sf8" firstAttribute="leading" secondItem="WDr-ZR-TN8" secondAttribute="leading" constant="44.333333333333314" id="Ew4-yM-iqh"/>
+                                    <constraint firstItem="0QB-ak-Sf8" firstAttribute="top" secondItem="WDr-ZR-TN8" secondAttribute="top" constant="45" id="VjM-ma-OaQ"/>
+                                    <constraint firstItem="0QB-ak-Sf8" firstAttribute="centerY" secondItem="WDr-ZR-TN8" secondAttribute="centerY" id="YRR-wj-5x0"/>
+                                    <constraint firstAttribute="width" secondItem="WDr-ZR-TN8" secondAttribute="height" multiplier="1:1" id="jqa-Xd-ZyL"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="foc-IM-CRo">
-                                <rect key="frame" x="42" y="368" width="309" height="1"/>
+                                <rect key="frame" x="42" y="367.66666666666669" width="309" height="1"/>
                                 <color key="backgroundColor" systemColor="labelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="fMM-Fa-YH4"/>
+                                </constraints>
                             </view>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" text="Innopolis" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCN-oh-9ar">
-                                <rect key="frame" x="42" y="509" width="265" height="65"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IeH-pn-fuN">
+                                <rect key="frame" x="42" y="371" width="309" height="80"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="University" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AcR-xF-1i3">
+                                        <rect key="frame" x="0.0" y="0.0" width="309" height="30"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Ufi-va-aiF"/>
+                                        </constraints>
+                                        <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k5V-3C-Axu">
+                                        <rect key="frame" x="0.0" y="30" width="309" height="50"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Innopolis University" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9RJ-NB-GBx">
+                                                <rect key="frame" x="0.0" y="0.0" width="272" height="50"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZx-9i-gWN">
+                                                <rect key="frame" x="272" y="0.0" width="37" height="50"/>
+                                                <color key="tintColor" systemColor="opaqueSeparatorColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="pencil.tip.crop.circle.badge.plus" catalog="system"/>
+                                                <connections>
+                                                    <action selector="universityButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4AJ-Xi-F24"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Valeriia Kharina" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkY-uK-PrP">
+                                <rect key="frame" x="92" y="322.66666666666669" width="209" height="37"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="ZQm-3s-xH9"/>
+                                </constraints>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Qpd-OT-FeH">
+                                <rect key="frame" x="42" y="478" width="309" height="124"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="City" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAF-S2-SFw">
+                                        <rect key="frame" x="0.0" y="0.0" width="309" height="30"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="W9Q-qu-88D"/>
+                                        </constraints>
+                                        <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JqK-J2-w6y">
+                                        <rect key="frame" x="0.0" y="30" width="309" height="94"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Innopolis" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCN-oh-9ar">
+                                                <rect key="frame" x="0.0" y="0.0" width="272" height="94"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6i-q5-mug">
+                                                <rect key="frame" x="272" y="0.0" width="37" height="94"/>
+                                                <color key="tintColor" systemColor="opaqueSeparatorColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="pencil.tip.crop.circle.badge.plus" catalog="system"/>
+                                                <connections>
+                                                    <action selector="cityButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NEy-Ie-6Zc"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="foc-IM-CRo" firstAttribute="top" secondItem="xkY-uK-PrP" secondAttribute="bottom" constant="8" symbolic="YES" id="0xD-6A-etY"/>
-                            <constraint firstItem="mCN-oh-9ar" firstAttribute="top" secondItem="9RJ-NB-GBx" secondAttribute="bottom" constant="38" id="2NK-9h-3Ub"/>
-                            <constraint firstItem="nAF-S2-SFw" firstAttribute="top" secondItem="9RJ-NB-GBx" secondAttribute="bottom" constant="14" id="4fB-QN-tBB"/>
-                            <constraint firstItem="AcR-xF-1i3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="6Ln-8b-XT6"/>
-                            <constraint firstItem="nAF-S2-SFw" firstAttribute="leading" secondItem="mCN-oh-9ar" secondAttribute="leading" id="9fJ-gx-T66"/>
-                            <constraint firstItem="WDr-ZR-TN8" firstAttribute="centerX" secondItem="foc-IM-CRo" secondAttribute="centerX" id="AB3-tC-1J4"/>
-                            <constraint firstItem="V6i-q5-mug" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mCN-oh-9ar" secondAttribute="trailing" constant="8" symbolic="YES" id="BHF-hj-E6U"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="V6i-q5-mug" secondAttribute="bottom" constant="268" id="CTg-xj-Q2A"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aZx-9i-gWN" secondAttribute="trailing" constant="28" id="Dmo-eu-2wO"/>
-                            <constraint firstItem="AcR-xF-1i3" firstAttribute="leading" secondItem="9RJ-NB-GBx" secondAttribute="leading" id="LYL-RN-vcc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nAF-S2-SFw" secondAttribute="trailing" constant="111" id="LeD-NR-mTW"/>
-                            <constraint firstItem="WDr-ZR-TN8" firstAttribute="centerX" secondItem="xkY-uK-PrP" secondAttribute="centerX" id="NGD-DZ-PCe"/>
-                            <constraint firstItem="aZx-9i-gWN" firstAttribute="leading" secondItem="V6i-q5-mug" secondAttribute="leading" id="OHy-Dk-KN7"/>
-                            <constraint firstItem="xkY-uK-PrP" firstAttribute="top" secondItem="WDr-ZR-TN8" secondAttribute="bottom" constant="38" id="PI6-Em-nk0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V6i-q5-mug" secondAttribute="trailing" constant="28" id="Src-au-WIY"/>
-                            <constraint firstItem="foc-IM-CRo" firstAttribute="leading" secondItem="AcR-xF-1i3" secondAttribute="leading" id="WRP-oc-FOR"/>
-                            <constraint firstItem="xkY-uK-PrP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="92" id="ZHc-Y9-df2"/>
-                            <constraint firstItem="aZx-9i-gWN" firstAttribute="leading" secondItem="9RJ-NB-GBx" secondAttribute="trailing" constant="8" symbolic="YES" id="ZIz-Od-psr"/>
-                            <constraint firstItem="WDr-ZR-TN8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="29" id="cyD-uq-niU"/>
-                            <constraint firstItem="V6i-q5-mug" firstAttribute="top" secondItem="aZx-9i-gWN" secondAttribute="bottom" constant="80" id="guk-Dy-PPD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nAF-S2-SFw" secondAttribute="bottom" constant="305" id="koY-It-lpw"/>
-                            <constraint firstItem="9RJ-NB-GBx" firstAttribute="top" secondItem="aZx-9i-gWN" secondAttribute="top" id="kzR-gb-msu"/>
-                            <constraint firstItem="nAF-S2-SFw" firstAttribute="top" secondItem="AcR-xF-1i3" secondAttribute="bottom" constant="81" id="nbx-nU-wOi"/>
-                            <constraint firstItem="9RJ-NB-GBx" firstAttribute="leading" secondItem="nAF-S2-SFw" secondAttribute="leading" id="oXf-pl-3lk"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mCN-oh-9ar" secondAttribute="bottom" constant="244" id="rTj-2Y-mx7"/>
-                            <constraint firstItem="WDr-ZR-TN8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="uap-xk-XEJ"/>
-                            <constraint firstItem="AcR-xF-1i3" firstAttribute="top" secondItem="foc-IM-CRo" secondAttribute="bottom" constant="7" id="vbx-rf-AWI"/>
-                            <constraint firstItem="9RJ-NB-GBx" firstAttribute="top" secondItem="foc-IM-CRo" secondAttribute="bottom" constant="31" id="w66-kB-dcv"/>
+                            <constraint firstItem="WDr-ZR-TN8" firstAttribute="centerX" secondItem="xkY-uK-PrP" secondAttribute="centerX" id="1WK-LO-vMU"/>
+                            <constraint firstItem="WDr-ZR-TN8" firstAttribute="centerX" secondItem="Qpd-OT-FeH" secondAttribute="centerX" id="20X-1t-WFK"/>
+                            <constraint firstItem="WDr-ZR-TN8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Wp-hG-zLs"/>
+                            <constraint firstItem="foc-IM-CRo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="26" id="5o2-Ik-Z5j"/>
+                            <constraint firstItem="xkY-uK-PrP" firstAttribute="centerX" secondItem="Qpd-OT-FeH" secondAttribute="centerX" id="6ou-og-cWd"/>
+                            <constraint firstItem="xkY-uK-PrP" firstAttribute="centerX" secondItem="IeH-pn-fuN" secondAttribute="centerX" id="HdU-r1-UOI"/>
+                            <constraint firstItem="WDr-ZR-TN8" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="JWv-Vd-dSy"/>
+                            <constraint firstItem="WDr-ZR-TN8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="29" id="LsL-xP-dEA"/>
+                            <constraint firstItem="foc-IM-CRo" firstAttribute="top" secondItem="xkY-uK-PrP" secondAttribute="bottom" constant="8" id="O0b-pj-rKY"/>
+                            <constraint firstItem="IeH-pn-fuN" firstAttribute="top" secondItem="foc-IM-CRo" secondAttribute="bottom" constant="2.3333333333333144" id="Rw9-lS-86d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="Qpd-OT-FeH" secondAttribute="bottom" constant="260" id="a9j-EW-DcI"/>
+                            <constraint firstItem="foc-IM-CRo" firstAttribute="leading" secondItem="IeH-pn-fuN" secondAttribute="leading" id="bEL-Se-1Sa"/>
+                            <constraint firstItem="WDr-ZR-TN8" firstAttribute="centerX" secondItem="IeH-pn-fuN" secondAttribute="centerX" id="dDj-2L-5RW"/>
+                            <constraint firstItem="Qpd-OT-FeH" firstAttribute="top" secondItem="IeH-pn-fuN" secondAttribute="bottom" constant="27" id="don-dd-DaO"/>
+                            <constraint firstItem="WDr-ZR-TN8" firstAttribute="centerX" secondItem="foc-IM-CRo" secondAttribute="centerX" id="eRG-iP-vG9"/>
+                            <constraint firstItem="foc-IM-CRo" firstAttribute="leading" secondItem="Qpd-OT-FeH" secondAttribute="leading" id="elq-y9-C4J"/>
+                            <constraint firstItem="xkY-uK-PrP" firstAttribute="centerX" secondItem="foc-IM-CRo" secondAttribute="centerX" id="jU9-p0-ecb"/>
+                            <constraint firstItem="xkY-uK-PrP" firstAttribute="top" secondItem="WDr-ZR-TN8" secondAttribute="bottom" constant="38" id="kWK-yC-Cvl"/>
+                            <constraint firstItem="xkY-uK-PrP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="92" id="pFb-Br-QNs"/>
+                            <constraint firstItem="Qpd-OT-FeH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="478" id="qAC-t4-xBG"/>
                         </constraints>
                     </view>
                     <connections>

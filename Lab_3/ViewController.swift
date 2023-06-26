@@ -15,15 +15,15 @@ class ViewController: UIViewController {
     
     
     override func viewDidLayoutSubviews() {
-        let screenWidth = UIScreen.main.bounds.width
-        let viewSize = screenWidth / 2.0
-        circleView.frame.size = CGSize(width: viewSize, height: viewSize)
-        circleView.layer.cornerRadius = viewSize / 2.0
+        super.viewDidLayoutSubviews()
+        circleView.layer.cornerRadius = circleView.frame.width / 2.0
         circleView.clipsToBounds = true
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        universityText.text = "Innopolis University"
+        cityText.text = "Innopolis"
     }
     
     @IBAction func universityButtonTapped(_ sender: UIButton) {
